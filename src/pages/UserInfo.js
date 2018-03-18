@@ -45,7 +45,6 @@ class UserInfo extends React.Component {
             <Message.Header>
               We're sorry we can't fetch the data this time
             </Message.Header>
-            <p>{console.log(error)}</p>
           </Message>
         )}
         {readyForDisplay && <UserDetail userInfo={userInfo} />}
